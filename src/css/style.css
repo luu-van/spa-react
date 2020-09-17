@@ -52,3 +52,12 @@ nav {
     color: #fff;
     text-decoration: none;
 }
+
+.home-image {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2019/02/24211315/0f4be43c4171da2bfcd53c97632fc0c8c1c86f858206393bcf7598f2b2ac6da7-770x443.jpg');
+    background-size: cover;
+    margin-bottom: 50px;
+    transition:  all 0.3s ease-in-out;
+}
