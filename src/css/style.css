@@ -48,6 +48,11 @@ nav {
     cursor: pointer;
 }
 
+.nav-menu__link.activate {
+    background-color: royalblue;
+    color: #fff;
+}
+
 .logo-link {
     color: #fff;
     text-decoration: none;
@@ -94,6 +99,7 @@ nav {
 .home-thumbnail-3:hover {
     cursor: pointer;
     transform: scale(1.05);
+    transition:  all 0.3s ease-in-out;
 }
 
 .home-thumbnail-1 {
