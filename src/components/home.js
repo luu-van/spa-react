@@ -7,8 +7,8 @@ const Home = (props) => (
         <div className="home-image"></div>
         <div className="thumbnail-container">
             <div className="home-thumbnail-1"></div>
-            <div className="home-thumbnail-1"></div>
-            <div className="home-thumbnail-1"></div>
+            <div className="home-thumbnail-2"></div>
+            <div className="home-thumbnail-3"></div>
         </div>
     </div>
 </div>

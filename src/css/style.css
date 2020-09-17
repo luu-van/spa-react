@@ -56,8 +56,61 @@ nav {
 .home-image {
     width: 100%;
     height: 500px;
-    background-image: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2019/02/24211315/0f4be43c4171da2bfcd53c97632fc0c8c1c86f858206393bcf7598f2b2ac6da7-770x443.jpg');
+    background-image: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2020/02/09205802/9a5a970c2636f2a129af720f818670e40c28cbf12f5780df4972c2a0744d1a33-2048x2048.jpg');
     background-size: cover;
     margin-bottom: 50px;
     transition:  all 0.3s ease-in-out;
+}
+
+.main-content {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.main-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.thumbnail-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.home-thumbnail-1,
+.home-thumbnail-2,
+.home-thumbnail-3 {
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    transition:  all 0.3s ease-in-out;
+}
+
+.home-thumbnail-1:hover,
+.home-thumbnail-2:hover,
+.home-thumbnail-3:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.home-thumbnail-1 {
+    background-image: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2020/02/09175216/436316118e958f1861fa495432dac2c257be7c6de76d48d1de02d8b892bfe7a8-370x492.jpg');
+}
+
+.home-thumbnail-2 {
+    background-image: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2020/02/09162052/055195698ba6910f9e25303fa53c3bab5249c41a18981f33dab7bbd4ae91f0e3-370x492.jpg');
+}
+
+.home-thumbnail-3 {
+    background-image: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2020/02/09163521/0df9549184ba68dfc8ab5a084a14c2cb448b467f04822cbef4be4f2ec7b3b241-370x492.jpg');
+}
+
+.home-image:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition:  all 0.3s ease-in-out;
+    background-image: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2020/02/09175405/cc93fceee22eeccb44cc3a2c79f4b9631c39e559bebd28296319d7123338b8c1-2048x2048.jpg');
 }
