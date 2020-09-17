@@ -13,9 +13,9 @@ function App() {
       <div className="App">
         <Navbar title="Oscars 2020" />
         <Route exact path="/" render={() => <Home title="Oscars Winners" />} />
-        <Route path="/actors" render={() => <Actors />} />
-        <Route path="/actress" render={() => <Actress />} />
-        <Route path="/films" render={() => <Films />} />
+        <Route path="/actors" render={() => <Actors title="Best Actors" />} />
+        <Route path="/actress" render={() => <Actress title="Oscars Winners" />} />
+        <Route path="/films" render={() => <Films title="Oscars Winners" />} />
       </div>
     </BrowserRouter>
   );

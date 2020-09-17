@@ -120,3 +120,31 @@ nav {
     transition:  all 0.3s ease-in-out;
     background-image: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2020/02/09175405/cc93fceee22eeccb44cc3a2c79f4b9631c39e559bebd28296319d7123338b8c1-2048x2048.jpg');
 }
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.actor-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.actor-image {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+}
+
+.back {
+    display: inline-block;
+    margin: 5px;
+    padding: 3px 8px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: rgb(149, 216, 238);
+    text-decoration: none;
+}
