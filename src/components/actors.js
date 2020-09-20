@@ -6,9 +6,9 @@ const Actors = (props) => {
     let actors = ActorsList.map((person) => {
         return (
             <div className="actor-container">
-                <a>
+                <Link to={`/actors/${person.url}`}>
                     <div className="actor-image" style={{backgroundImage: "url(" + person.img_src + ")" }}></div>
-                </a>
+                </Link>
                 <h3>{person.name}</h3>
             </div>
         );

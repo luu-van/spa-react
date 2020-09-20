@@ -3,8 +3,8 @@ import {BrowserRouter, Route} from 'react-router-dom';
 import './css/style.css';
 import Navbar from './components/navbar';
 import Home from './components/home';
-import Actors from './components/actors';
-import Actress from './components/actress';
+import ActorContainer from './components/actorsContainer';
+import ActressContainer from './components/actress';
 import Films from './components/films';
 
 function App() {
@@ -13,9 +13,9 @@ function App() {
       <div className="App">
         <Navbar title="Oscars 2020" />
         <Route exact path="/" render={() => <Home title="Oscars Winners" />} />
-        <Route path="/actors" render={() => <Actors title="Best Actors" />} />
-        <Route path="/actress" render={() => <Actress title="Oscars Winners" />} />
-        <Route path="/films" render={() => <Films title="Oscars Winners" />} />
+        <Route path="/actors" render={() => <ActorContainer title="Best Actors" />} />
+        <Route path="/actress" render={() => <ActressContainer title="Best Actress" />} />
+        <Route path="/films" render={() => <Films title="Best Films" />} />
       </div>
     </BrowserRouter>
   );
