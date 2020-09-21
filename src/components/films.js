@@ -1,13 +1,28 @@
 import React from 'react';
+import {FilmList} from '../data/films';
+import {Link} from 'react-router-dom';
 
-const Films = (props) => (
-<div className="main-content">
-    <div className="container">
-    <h2>Films Page</h2>
-        
-    </div>
-</div>
+const Films = (props) => {
+    let films = FilmList.map((person) => {
+        return (
+            <div className="actor-container">
+                <Link to={`/films/${person.url}`}>
+                    <div className="actor-image" style={{backgroundImage: "url(" + person.img_src + ")" }}></div>
+                </Link>
+                <h3>{person.name}</h3>
+            </div>
+        );
+    });
 
-);
+    return (
+        <div className="main-content">
+            <div><Link className="back" to="/">Back</Link></div>
+            <h2>{props.title}</h2>
+            <div className="container">
+                {films}
+            </div>
+        </div>
+    );
+};
 
 export default Films;
