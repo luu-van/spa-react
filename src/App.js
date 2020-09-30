@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navbar title="Oscars 2020" />
+        <Navbar title="Oscars" />
         <Route exact path="/" render={() => <Home title="Oscars Winners" />} />
         <Route path="/actors" render={() => <ActorContainer title="Best Actors" />} />
         <Route path="/actress" render={() => <ActressContainer title="Best Actress" />} />
